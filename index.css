@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#appbar {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.54);
+  width: 100vw;
+  box-shadow: 0 2px 10px 0 rgb(255 255 255 / 23%);
+}
+
+#appbar-fixed {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  justify-content: right;
+  color: #fff;
+  padding-right: 10%;
+}
+
+#content {
+  padding-top: 10vh;
+  height: 90vh;
+  width: 100vw;
+  background-image: url("tedx.jpg");
+  background-repeat: "no-repeat";
+  background-size: "cover";
+  background-position: "center";
+  color: white;
+}
+
+#appbar-logo {
+  margin-left: 10%;
+  margin-right: auto;
+  color: red;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.appbar-link {
+  font-family: sans-serif;
+  font-size: 17px;
+  padding: 10px;
+}
+
+#landing-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30%;
+  height: 50%;
+  background-color: rgba(0, 0, 0);
+  border-radius: 5px;
+  margin-left: 10%;
+  margin-top: 10%;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding: 5%;
+}
+
+#call-to-action {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  width: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0);
+  border-radius: 7px;
+  border: 2px solid red;
+  padding: 5px;
+}
